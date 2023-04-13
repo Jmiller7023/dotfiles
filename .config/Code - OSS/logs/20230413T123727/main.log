@@ -1,0 +1,13 @@
+2023-04-13 12:37:27.494 [info] update#ctor - updates are disabled as there is no update URL
+2023-04-13 12:37:28.465 [info] Starting extension host with pid 10683 (fork() took 46 ms).
+2023-04-13 12:48:05.223 [info] Starting extension host with pid 12567 (fork() took 5 ms).
+2023-04-13 12:48:27.423 [info] Extension host with pid 12567 exited with code: 0, signal: null.
+2023-04-13 12:48:28.282 [info] Starting extension host with pid 12627 (fork() took 4 ms).
+2023-04-13 12:48:33.416 [info] Extension host with pid 12627 exited with code: 0, signal: null.
+2023-04-13 12:48:33.807 [info] Starting extension host with pid 12691 (fork() took 7 ms).
+2023-04-13 13:10:29.573 [info] Extension host with pid 10683 exited with code: 0, signal: null.
+2023-04-13 13:10:30.345 [info] Starting extension host with pid 14712 (fork() took 7 ms).
+2023-04-13 13:10:33.789 [info] Waiting for extension host with pid 12691 to exit.
+2023-04-13 13:10:33.789 [info] Waiting for extension host with pid 14712 to exit.
+2023-04-13 13:10:33.791 [info] Extension host with pid 12691 exited with code: 0, signal: null.
+2023-04-13 13:10:33.791 [info] Extension host with pid 14712 exited with code: 0, signal: null.

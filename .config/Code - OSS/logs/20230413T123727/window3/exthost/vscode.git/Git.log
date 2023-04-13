@@ -1,0 +1,24 @@
+2023-04-13 12:48:05.629 [info] Log level: Info
+2023-04-13 12:48:05.629 [info] Validating found git in: "git"
+2023-04-13 12:48:05.629 [info] Using git "2.40.0" from "git"
+2023-04-13 12:48:29.044 [info] Log level: Info
+2023-04-13 12:48:29.045 [info] Validating found git in: "git"
+2023-04-13 12:48:29.045 [info] Using git "2.40.0" from "git"
+2023-04-13 12:48:29.045 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-13 12:48:29.045 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-04-13 12:48:29.045 [info] Open repository: /home/jmiller/.config/dwm
+2023-04-13 12:48:29.045 [info] > git config --get commit.template [10ms]
+2023-04-13 12:48:29.045 [info] > git rev-parse --show-toplevel [14ms]
+2023-04-13 12:48:29.045 [info] No remotes found in the git config file.
+2023-04-13 12:48:29.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-04-13 12:48:29.045 [info] > git status -z -uall [1ms]
+2023-04-13 12:48:29.045 [info] No remotes found in the git config file.
+2023-04-13 12:48:29.045 [info] > git config --get commit.template [4ms]
+2023-04-13 12:48:29.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-13 12:48:29.045 [info] > git status -z -uall [0ms]
+2023-04-13 12:48:29.325 [info] > git show --textconv :config.h [2ms]
+2023-04-13 12:48:29.326 [info] > git ls-files --stage -- /home/jmiller/.config/dwm/config.h [1ms]
+2023-04-13 12:48:29.521 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-13 12:48:34.097 [info] Log level: Info
+2023-04-13 12:48:34.097 [info] Validating found git in: "git"
+2023-04-13 12:48:34.097 [info] Using git "2.40.0" from "git"

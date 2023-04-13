@@ -1,0 +1,21 @@
+2023-04-13 12:48:08.114 [error] Could not find category with ID: Setup: Error: Could not find category with ID: Setup
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2548:53844
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2121)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1729)
+    at B.progressStep (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27216)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27411
+    at Set.forEach (<anonymous>)
+    at B.progressByEvent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27395)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:22015
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2121)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1729)
+    at w.k (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:13520)
+    at w.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:13037)
+    at Xc.nc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2548:74633)
+    at Xc.Sb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2548:56959)
+    at HTMLButtonElement.<anonymous> (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2548:55820)
+2023-04-13 12:48:08.244 [info] [perf] Render performance baseline is 34ms
+2023-04-13 12:48:31.403 [info] [perf] Render performance baseline is 43ms
+2023-04-13 12:48:36.425 [info] [perf] Render performance baseline is 32ms

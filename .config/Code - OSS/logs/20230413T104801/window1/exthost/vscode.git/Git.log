@@ -1,0 +1,117 @@
+2023-04-13 10:48:07.371 [info] Log level: Info
+2023-04-13 10:48:07.371 [info] Validating found git in: "git"
+2023-04-13 10:48:07.371 [info] Using git "2.40.0" from "git"
+2023-04-13 10:48:07.371 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-13 10:48:07.371 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.372 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-13 10:48:07.372 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.378 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-13 10:48:07.378 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.385 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-13 10:48:07.389 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-04-13 10:48:07.395 [info] Open repository: /home/jmiller/.config/dmenu
+2023-04-13 10:48:07.402 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-13 10:48:07.405 [info] > git config --get commit.template [3ms]
+2023-04-13 10:48:07.410 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-04-13 10:48:07.412 [info] Open repository: /home/jmiller/.config/dwm
+2023-04-13 10:48:07.418 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-13 10:48:07.418 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.422 [info] > git config --get commit.template [5ms]
+2023-04-13 10:48:07.425 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-13 10:48:07.425 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.429 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-13 10:48:07.429 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.432 [info] > git rev-parse --show-toplevel [0ms]
+2023-04-13 10:48:07.432 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.436 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-13 10:48:07.436 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:48:07.439 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2023-04-13 10:48:07.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2023-04-13 10:48:07.446 [info] > git status -z -uall [4ms]
+2023-04-13 10:48:07.450 [info] > git rev-parse --show-toplevel [11ms]
+2023-04-13 10:48:07.455 [info] > git status -z -uall [10ms]
+2023-04-13 10:48:07.461 [info] > git config --get commit.template [6ms]
+2023-04-13 10:48:07.461 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2023-04-13 10:48:07.463 [info] Open repository: /home/jmiller/.config/slstatus
+2023-04-13 10:48:07.471 [info] > git config --get commit.template [10ms]
+2023-04-13 10:48:07.475 [info] > git rev-parse --show-toplevel [9ms]
+2023-04-13 10:48:07.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-04-13 10:48:07.484 [info] > git config --get commit.template [13ms]
+2023-04-13 10:48:07.487 [info] > git status -z -uall [3ms]
+2023-04-13 10:48:07.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-04-13 10:48:07.491 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2023-04-13 10:48:07.492 [info] Open repository: /home/jmiller/.config/st
+2023-04-13 10:48:07.506 [info] > git status -z -uall [16ms]
+2023-04-13 10:48:07.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2023-04-13 10:48:07.515 [info] > git status -z -uall [4ms]
+2023-04-13 10:48:07.517 [info] > git config --get commit.template [13ms]
+2023-04-13 10:48:07.524 [info] > git config --get commit.template [4ms]
+2023-04-13 10:48:07.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-04-13 10:48:07.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-04-13 10:48:07.535 [info] > git status -z -uall [3ms]
+2023-04-13 10:48:07.540 [info] > git status -z -uall [6ms]
+2023-04-13 10:48:07.542 [info] > git config --get commit.template [2ms]
+2023-04-13 10:48:07.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-04-13 10:48:07.549 [info] > git status -z -uall [1ms]
+2023-04-13 10:48:08.028 [info] > git check-ignore -v -z --stdin [10ms]
+2023-04-13 10:48:08.028 [info] > git check-ignore -v -z --stdin [7ms]
+2023-04-13 10:48:08.028 [info] > git check-ignore -v -z --stdin [4ms]
+2023-04-13 10:48:08.028 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-13 10:49:02.813 [info] > git rev-parse --show-toplevel [19ms]
+2023-04-13 10:49:02.813 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:49:07.211 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-13 10:49:07.211 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:49:07.586 [info] > git rev-parse --show-toplevel [0ms]
+2023-04-13 10:49:07.586 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:49:08.012 [info] > git rev-parse --show-toplevel [0ms]
+2023-04-13 10:49:08.012 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:49:39.179 [info] > git rev-parse --show-toplevel [0ms]
+2023-04-13 10:49:39.180 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:50:03.749 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-13 10:50:03.749 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:50:13.126 [info] > git rev-parse --show-toplevel [0ms]
+2023-04-13 10:50:13.126 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-04-13 10:50:17.105 [info] > git check-ignore -v -z --stdin [0ms]
+2023-04-13 10:50:20.876 [info] > git check-ignore -v -z --stdin [0ms]
+2023-04-13 10:50:32.722 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-13 10:53:17.836 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-13 10:53:19.204 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-13 10:53:21.458 [info] > git check-ignore -v -z --stdin [0ms]
+2023-04-13 11:05:03.678 [info] > git show --textconv :shiftview.c [3ms]
+2023-04-13 11:05:03.679 [info] > git ls-files --stage -- /home/jmiller/.config/dwm/shiftview.c [1ms]
+2023-04-13 11:05:03.972 [info] > git check-ignore -v -z --stdin [0ms]
+2023-04-13 11:05:04.562 [info] > git config --get commit.template [3ms]
+2023-04-13 11:05:04.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-04-13 11:05:04.567 [info] > git status -z -uall [1ms]
+2023-04-13 11:05:09.578 [info] > git config --get commit.template [3ms]
+2023-04-13 11:05:09.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-13 11:05:09.582 [info] > git status -z -uall [1ms]
+2023-04-13 11:06:31.576 [info] > git show --textconv :Makefile [4ms]
+2023-04-13 11:06:31.577 [info] > git ls-files --stage -- /home/jmiller/.config/dwm/Makefile [1ms]
+2023-04-13 11:06:31.581 [info] > git cat-file -s 77bcbc02c29571c5eb4797f058e696277fb6f454 [0ms]
+2023-04-13 11:07:51.437 [info] > git show --textconv :config.h [3ms]
+2023-04-13 11:07:51.438 [info] > git ls-files --stage -- /home/jmiller/.config/dwm/config.h [1ms]
+2023-04-13 11:07:52.599 [info] > git show --textconv :config.def.h [3ms]
+2023-04-13 11:07:52.600 [info] > git ls-files --stage -- /home/jmiller/.config/dwm/config.def.h [1ms]
+2023-04-13 11:07:52.603 [info] > git cat-file -s 9efa7744b39c8b0ff0cf09a504a2539910c2881c [0ms]
+2023-04-13 11:09:00.947 [info] > git config --get commit.template [4ms]
+2023-04-13 11:09:00.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-13 11:09:00.951 [info] > git status -z -uall [1ms]
+2023-04-13 11:11:27.067 [info] > git config --get commit.template [3ms]
+2023-04-13 11:11:27.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-04-13 11:11:27.071 [info] > git status -z -uall [1ms]
