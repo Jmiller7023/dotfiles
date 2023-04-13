@@ -10,3 +10,4 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 alias la='ls --all'
 alias vi=' vim'
+export GPG_TTY=$(tty)
