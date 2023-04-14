@@ -14,7 +14,7 @@ echo "Installing programs..."
 yay -S picom-animations-git gnu-free-fonts noto-fonts noto-fonts-cjk nordic-theme-git  noto-fonts-emoji numlockx ttf-jetbrains-mono ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-2048-em-mono  google-chrome --noconfirm
 
 # use pacman for everything else
-sudo pacman -S arandr emacs vim nano vscode ffmpeg vlc audacity wireshark-qt firefox git spotify-launcher htop neofetch obs-studio openssh perl pulseaudio pulsemixer python-pip ranger mupdf zathura-cb zathura-djvu zathura-pdf-mupdf zathura-ps thunar unzip zip xorg-server xorg-xinit libx11 libxinerama libxft base base-devel --noconfirm
+sudo pacman -S arandr cifs-utils emacs vim nano vscode ffmpeg vlc audacity wireshark-qt firefox git spotify-launcher htop neofetch obs-studio openssh perl pulseaudio pulsemixer python-pip ranger mupdf zathura-cb zathura-djvu zathura-pdf-mupdf zathura-ps thunar unzip zip xorg-server xorg-xinit libx11 libxinerama libxft base base-devel --noconfirm
 sleep 1 && clear
 
 echo "Organizing dotfiles..."
@@ -67,3 +67,5 @@ echo "Gain push access to github https://github.com/settings/tokens"
 echo "Go to server_ip:8384 to obtain shared folders from Syncthing"
 echo "Adjust theme with lxappearance (Theme Nordic) (Icon Infinity-Dark-Icons) (default font System-ui size:26)"
 echo "Adjust scaling in thunar, spotify (ctrl_+ / ctrl_-), etc."
+echo "Mount netork driver automatically by adding //SERVER_IP/DRIVE_NAME /mnt/server/ cifs credentials=/root/.smbServer,uid=1000 0 0"
+echo "/root/.smbServer will contain two lines\nusername=USERNAME\npassword=PASSWORD. use chmod 700 to protect it"
