@@ -4,6 +4,18 @@ wal -R &
 # Enable numlock
 numlockx on &
 
+# Start dunst
+dunst &
+
+# Start dwmblocks
+dwmblocks &
+
+# Start clipmenud
+clipmenud &
+
+# Start redshift
+redshift &
+
 # Start the compositor (picom) with experimental backends enabled
 picom --experimental-backends &
 
